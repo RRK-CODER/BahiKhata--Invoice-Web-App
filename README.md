@@ -1,24 +1,8 @@
-# Frontend Mentor - Invoice app solution
+# Invoice web app
 
-This is a solution to the [Invoice app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Web app features invoices system, where user can add and track invoices.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued learning](#continued-learning)
-- [Author](#author)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
+Users able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -27,61 +11,40 @@ Users should be able to:
 - Save draft invoices, and mark pending invoices as paid
 - Filter invoices by status (draft/pending/paid)
 - Toggle light and dark mode
-- Keep track of any changes
+- Keep track of any changes, even after refreshing the browser
 
-### Screenshot
+#### Live: https://invoice-app-effip.netlify.app/
 
-![screenshot](./resources/preview.jpg)
+#### Technologies and Techniques
 
-### Links
+<p align="left"> 
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
 
-- Solution URL: [https://www.frontendmentor.io/solutions/fullstack-mern-app-using-sass-hooks-and-context-api-84TdefWXi](https://www.frontendmentor.io/solutions/fullstack-mern-app-using-sass-hooks-and-context-api-84TdefWXi)
-- Live Site URL: [https://afternoon-retreat-02971.herokuapp.com/](https://afternoon-retreat-02971.herokuapp.com/)
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
 
-## My process
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
 
-### Built with
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
+</p>
 
-- HTML5, CSS3, JSX, and Sass for layout
-- React, JavaScript, Hooks, and UUID for functionality
-- Context API for state management
-- Express, Node, and Config for backend
-- MongoDB and Mongoose for storage
-- Media queries to make responsive app
-- Figma for design files
-- CSSTransition for smooth transitions
-- Axios to make requests
-- Nodemon and Concurrently for development
-- Heroku for deployment
-
-### What I learned
-
-I came into this challenge wanting to tackle a big project, and that's exactly what this turned out to be. I liked that it was fullstack, had a Figma file to imitate a professional work atmosphere, and allowed users a plethora of options to make the app very functional.
-
-One thing I learned is to really break down the project into bite size pieces. This project was quite overwhelming in the beginning. There are a lot of files and instructions in this project, and taking the time to plan everything out was quite helpful.
-
-Another thing that stood out with this project was the amount of time that I spent on the media queries to make the app responsive for mobile devices. I learned a lot about what works and what doesn't work, and how little changes here will affect something elsewhere if it isn't planned out properly.
-
-Other little things that gave me problems included how to make the body background toggle in dark mode, how to properly use keys when mapping over an object, and how to get a div to be fixed inside another div that has scroll functionality.
-
-This function, although simple in the end, brought sweet relief to issue that stumped me on and off for several days.
-
-```js
-const toggleDarkMode = () => {
-  let newMode = !state.dark;
-  newMode
-    ? (document.body.style.backgroundColor = '#141625')
-    : (document.body.style.backgroundColor = '#f8f8f8');
-  dispatch({ type: DARK, payload: newMode });
-};
+```
+  BEM, CSS Flexbox and Grid, JavaScript, ReactJS
 ```
 
-### Continued learning
+### run the project:
 
-Mostly what I'd like to improve on future projects is the file/folder structure for my applications. I would like to be more consistent with where I put specific file types and what types of code goes in each of those files in order to give my projects a more professional feel. This is particularly true for Context API with State and Reducer.
+```
+git clone https://github.com/effip24/invoice-webapp-frontend.git
+```
 
-## Author
+```
+cd invoice-webapp-frontend
+```
 
-- [Jesse's Portfolio Website](https://www.codebyronda.com)
-- [Jesse's LinkedIn Profile](https://www.linkedin.com/in/jesse-ronda-46a6a1205)
-- [Jesse's Frontend Mentor Profile](https://www.frontendmentor.io/profile/jesse10930)
+```
+npm install
+```
+
+```
+npm run start
+```
